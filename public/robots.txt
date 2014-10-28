@@ -1,0 +1,4 @@
+Sitemap: http://tamytop.com/sitemap.xml
+User-agent: *
+Disallow: /vote/
+Disallow: /out/

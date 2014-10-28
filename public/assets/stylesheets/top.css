@@ -1,0 +1,121 @@
+.activeUl {
+    list-style-type: none;
+}
+.activeUl li {
+    padding: 5px;
+}
+.activeUl li.active {
+    background-color: #e6e6e6;
+    list-style-type: none;
+}
+.ui-state-default {
+    padding: 10px;
+    border-top: 1px solid #d3d3d3;
+    color: #555555;
+}
+.ui-state-default:hover{
+    background: #e6e6e6;
+}
+#sortable {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+body{
+    background-color: #f5f5f5;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+li.socialMediaAccount{display:inline;float:left;margin:0 0 0 5px;height:20px}
+
+.container {
+    max-width: none !important;
+    width: 1203px;
+}
+a{
+    color: #2F4F4F;
+}
+a:hover, div#listhref:hover{
+ color: #d4714a;
+}
+div#listhref{
+    color: #aaaaaa;
+}
+div#listtooltip{
+    position: absolute;
+    padding-left: 207px;
+    z-index: 11;
+}
+.no-margin{
+    margin: 0;
+}
+
+.container .navbar-header,
+.container .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+    float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-brand {
+    margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.navbar-nav > li {
+    float: left;
+}
+.navbar-nav > li > a {
+    padding: 15px;
+}
+a.divlink {
+    display:block;
+    width:210px;
+    height:140px;
+    float:left;
+}
+.shadow {
+    border-width: 0;
+    border-top-width: 3px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+}
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+.pagination {
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.toplistdiv > div:first-of-type h3{
+    font-weight: bold;
+
+}
+.toplistdiv > div:first-of-type h3 small{
+    font-weight: bold;
+
+}
+
